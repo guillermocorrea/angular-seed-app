@@ -1,0 +1,32 @@
+{
+  "name": "angular-seed-app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/guillermocorrea/angular-seed-app",
+  "authors": [
+    "Guillermo Correa <luis.guillermo.correa@hotmail.com>"
+  ],
+  "description": "Angular seed app",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.6",
+    "angular-animate": "~1.3.6",
+    "angular-loading-bar": "~0.6.0",
+    "angular-resource": "~1.3.6",
+    "angular-route": "~1.3.6",
+    "bootstrap": "~3.3.1",
+    "font-awesome": "~4.2.0",
+    "toastr": "~2.1.0",
+    "underscore": "~1.7.0"
+  }
+}

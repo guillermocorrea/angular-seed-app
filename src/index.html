@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>angular-seed-app</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendors/toastr/toastr.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/app.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div ng-include src="'app/common/views/header/header.tpl.html'"></div>
+<div class="container">
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <div id="main">
+        <div class="reveal-animation" data-ng-view></div>
+    </div>
+    <div data-ng-include="'app/common/views/footer/footer.tpl.html'"></div>
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+<script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/vendors/angular/angular.min.js"></script>
+<script src="assets/vendors/angular-route/angular-route.min.js"></script>
+<script src="assets/vendors/angular-animate/angular-animate.min.js"></script>
+<script src="assets/vendors/angular-resource/angular-resource.min.js"></script>
+<script src="assets/vendors/underscore/underscore.js"></script>
+<script src="assets/vendors/toastr/toastr.min.js"></script>
+
+<script src="app/users/usersService.js"></script>
+<script src="app/users/users.js"></script>
+<script src="app/app.js"></script>
+<script src="app/common/views/header/header.js"></script>
+</body>
+</html>

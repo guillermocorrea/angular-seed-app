@@ -1,0 +1,30 @@
+{
+  "name": "angular-seed-app",
+  "version": "1.0.0",
+  "description": "Angular seed app",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.10.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillermocorrea/angular-seed-app.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Luis Guillermo Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillermocorrea/angular-seed-app/issues"
+  },
+  "homepage": "https://github.com/guillermocorrea/angular-seed-app"
+}
